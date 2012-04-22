@@ -1,0 +1,219 @@
+/* Copyright (c) 2012 Philipp Geschke <pg@electricdynamite.de>
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+ * documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
+ * rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit
+ * persons to whom the Software is furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR
+ * ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+ * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ *
+ * The above license and derived rights are explicitly related to this file only.
+ * 
+ */
+
+
+body {
+  background-color: #eee;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #999), color-stop(1, #fff));background:-webkit-linear-gradient(top, #999 0%, #fff 100%);background:-moz-linear-gradient(top, #999 0%, #fff 100%);background:linear-gradient(top, #999 0%, #fff 100%);
+  background-repeat:  no-repeat;
+  font-family:    "Lucida Grande",Helvetica,Arial,sans-serif;                                                                                                                                                                    
+  cursor:       default; 
+  font-size:      14px;
+  margin:       auto;
+  padding:      0px;
+  width:        745px;
+}
+
+h1 {
+  font-size:      1.2em;
+  font-style:     italic;
+  color:          #1858b8;                           
+  letter-spacing:   0.1em;                            
+  padding-left:   10px;
+  padding-top:    10px;  
+  margin:         0px;
+}
+
+h2 {
+  font-size:      1em;
+  color:          #00b7ff;                          
+  letter-spacing: 0.1em;                               
+  padding-left:   10px;
+  margin:         0px;
+}
+
+h3 {
+  font-size:      1em;
+  color:          #1858b8;                          
+  letter-spacing: 0.1em;
+  margin:         10px;
+  font-weight:    bold;
+}
+
+fieldset {
+  border:       1px solid #FFFFFF;
+  margin:       1.5em 0 0 0;  
+  padding:      0;  
+}
+
+fieldset ol {
+  padding:      1em 1em 0 1em;  
+  list-style:     none;  
+}
+
+fieldset li {  
+  padding-bottom:   1em;  
+}
+
+input.submit {  
+  border-style:   outset; 
+  margin-left:    26em;
+}
+ 
+legend {
+  color:        #FFFFFF;
+  font-size:      1.1em;
+  font-weight:    bold;
+}
+
+label {
+  float:        left;    
+  width:        20em;    
+  margin-right:   1em;    
+  text-align:     right;  
+}
+
+input {
+  background-color: #1858b8;
+  color:        #FFFFFF;
+  border:       1px solid #FFFFFF;
+}
+
+input .noborder {
+  background-color: #1858b8;
+  color:        #FFFFFF;
+}
+
+a:link {
+  font-family:      Geneva, Arial, Helvetica, sans-serif;
+  text-decoration:  none;                            
+  border-bottom:    1px dashed #00b7ff;                
+  color:            #00b7ff;                                   
+}                                                         
+
+a:visited {
+  font-family:      Geneva, Arial, Helvetica, sans-serif;
+  text-decoration:  none;                            
+  border-bottom:    1px dashed #00b7ff;                
+  color:            #00b7ff;                                    
+}                                                         
+
+a:hover {
+  font-family:      Geneva, Arial, Helvetica, sans-serif;
+  text-decoration:  none;                            
+  border-bottom:    1px solid #00b7ff;                
+  color:            #00b7ff;                                 
+}                                                         
+
+a:active {
+  font-family:      Geneva, Arial, Helvetica, sans-serif;
+  text-decoration:  none;                            
+  border-bottom:    1px dashed #00b7ff;                
+  color:            #00b7ff;                                    
+}  
+
+abbr, acronym {
+  cursor:       help;
+  border-bottom:    1px dotted;
+}
+
+img {
+  border:       none;
+}
+
+pre {
+  font-size:      0.9em;
+}
+
+
+header{
+  width:        745px;
+  height:       20px;
+  background-color: #1858b8;
+  margin:       0px 0px 0px 0px;
+  padding:      6px 15px 3px 15px;
+}
+
+header a:link {
+  color:        #FFF;
+  font-size:    1.1em;
+  border:       none;
+  padding:      0px 15px 0px 15px;
+}
+
+header a:link.selected {
+  padding-bottom: 10px;
+  background-color: #1858b8;
+}
+
+header a:visited {
+  color:        #FFF;
+}
+
+header a:hover {
+  color:        #00b7ff;
+}
+
+header a:active{
+  color:        #00b7ff;
+}
+
+#logo {
+  background-image: url('../images/logo.png');
+  width:        745px;
+  height:       320px;
+}
+
+#content {
+  width:        741px;
+  border:       2px solid #1858b8;
+  border-top:   none;
+  padding:      30px 15px 0px 15px;
+  margin:       0px;
+  background-color: #FFF;
+}
+
+footer {
+  padding-top:    20px;
+  padding-left:   15px;
+  font-size:      smaller;
+  color:        #999999;
+  margin-bottom:    50px;
+  text-align:     center;
+}
+
+
+.smaller {
+  font-size:      0.9em;
+}
+
+.little {
+  font-size:      0.8em;
+}
+
+.right: {
+  margin-right:   0px;
+}
+
+.inline {
+  display:        inline;
+}
+
+.loginLink {
+  border:         none;
+}
