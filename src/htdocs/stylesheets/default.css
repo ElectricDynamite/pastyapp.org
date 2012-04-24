@@ -25,6 +25,7 @@ body {
   cursor:       default; 
   font-size:      14px;
   margin:       auto;
+  margin-top:   10px;
   padding:      0px;
   width:        745px;
 }
@@ -203,6 +204,10 @@ footer {
   color:        #999999;
   margin-bottom:    50px;
   text-align:     center;
+}
+
+li {
+  padding:      2px;
 }
 
 
