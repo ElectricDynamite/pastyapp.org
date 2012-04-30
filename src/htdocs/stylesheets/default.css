@@ -164,14 +164,17 @@ header a:link.selected {
 
 header a:visited {
   color:        #FFF;
+  background-color: #1858b8;
 }
 
 header a:hover {
   color:        #00b7ff;
+  background-color: #1858b8;
 }
 
 header a:active{
   color:        #00b7ff;
+  background-color: #1858b8;
 }
 
 #logo {
