@@ -126,7 +126,23 @@ a:active {
   text-decoration:  none;                            
   border-bottom:    1px dashed #00b7ff;                
   color:            #00b7ff;                                    
-}  
+}
+
+a:link.image {
+  border:           none;
+}
+
+a:visited.image {
+  border:           none;
+}
+
+a:hover.image {
+  border:           none;
+}
+
+a:active.image {
+  border:           none;
+}
 
 abbr, acronym {
   cursor:       help;
@@ -196,8 +212,13 @@ header a:active{
   border: none;
 }
 
-#flattr a{
+#flattr a {
   border: none;
+}
+
+#qrcode {
+  float:          right;
+  margin:         10px;
 }
 
 footer {
