@@ -95,6 +95,11 @@ input {
   border:       1px solid #FFFFFF;
 }
 
+input.plain {
+  background: none;
+  border:     none;
+}
+
 input .noborder {
   background-color: #1858b8;
   color:        #FFFFFF;
@@ -102,29 +107,25 @@ input .noborder {
 
 a:link {
   font-family:      Geneva, Arial, Helvetica, sans-serif;
-  text-decoration:  none;                            
-  border-bottom:    1px dashed #00b7ff;                
+  text-decoration:  none;                              
   color:            #00b7ff;                                   
 }                                                         
 
 a:visited {
   font-family:      Geneva, Arial, Helvetica, sans-serif;
-  text-decoration:  none;                            
-  border-bottom:    1px dashed #00b7ff;                
+  text-decoration:  none;                              
   color:            #00b7ff;                                    
 }                                                         
 
 a:hover {
   font-family:      Geneva, Arial, Helvetica, sans-serif;
-  text-decoration:  none;                            
-  border-bottom:    1px solid #00b7ff;                
+  text-decoration:  underline;                             
   color:            #00b7ff;                                 
 }                                                         
 
 a:active {
   font-family:      Geneva, Arial, Helvetica, sans-serif;
-  text-decoration:  none;                            
-  border-bottom:    1px dashed #00b7ff;                
+  text-decoration:  none;                               
   color:            #00b7ff;                                    
 }
 
@@ -206,6 +207,7 @@ header a:active{
   padding:      30px 15px 0px 15px;
   margin:       0px;
   background-color: #FFF;
+  padding-bottom: 20px;
 }
 #flattr {
   margin: 15px;
