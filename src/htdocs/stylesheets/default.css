@@ -186,6 +186,7 @@ header a:visited {
 
 header a:hover {
   color:        #00b7ff;
+  text-decoration: none;
   background-color: #1858b8;
 }
 
