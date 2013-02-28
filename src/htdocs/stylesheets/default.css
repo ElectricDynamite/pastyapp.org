@@ -196,9 +196,10 @@ header a:active{
 }
 
 #logo {
-  background-image: url('../images/logo.png');
+  background-image: url('../images/sitelogo_20130228.png');
+  background-repeat: no-repeat;
   width:        745px;
-  height:       240px;
+  height:       220px;
 }
 
 #content {
