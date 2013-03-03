@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <title>{{ page.title }}</title>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="stylesheets/default.css">
+    {% css_asset_tag global %}
+      - /_assets/stylesheets/default.css
+    {% endcss_asset_tag %}
   </head>
   <body>
     <div id="logo"></div>
@@ -15,7 +17,7 @@
     <footer>
       Pasty - The Cloud Clipboard - &copy; 2012 - 2013 Philipp Geschke<br>
       <a href="imprint.html">Imprint</a> | <a href="https://pasty.cc/tos">Terms of Service</a> | <a href="http://electricdynamite.de/privacy.html">Privacy</a><br>
-      <div id="flattr"><a href="http://flattr.com/thing/549844/Pasty-the-cloud-clipboard" target="_blank"><img src="images/flattr-badge-large.png" alt="Flattr this" title="Flattr this"></div>
+      <div id="flattr"><a href="http://flattr.com/thing/549844/Pasty-the-cloud-clipboard" target="_blank"><img src="images/flattr-badge-large.png" alt="Flattr this" title="Flattr this" width="93" height="20"></a></div>
     </footer>
   </body>
 </html>
