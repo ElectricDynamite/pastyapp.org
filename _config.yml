@@ -1,2 +1,2 @@
 safe: false
-exclude: INSTALL.md
+exclude: INSTALL.md, Gemfile
