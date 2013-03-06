@@ -237,6 +237,66 @@ li {
   padding:      2px;
 }
 
+div.column_wrapper {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 100%;
+  background-color: #EEE;
+  border: 1px solid #AAA;
+}
+
+div.column_left {
+  float: left;
+  width: 45%;
+}
+
+div.column_right {
+  float: right;
+  width: 45%;
+  border-left: 1px solid #AAA;
+}
+
+div.column {
+  padding: 2%;
+}
+
+.apk_wrapper {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  border: 1px solid #AAA;
+}
+
+.apk_icon {
+  float: left;
+  border-right: 1px solid #AAA;
+  padding: 3px;
+  width: 52px;
+  height: 52px;
+  background-color: #AAA;
+}
+  
+.apk_text {
+  float: right;
+  width: 230px;
+  height: 30px;
+  line-height: 40px;
+  vertical-align: bottom;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.apk_subtext {
+  float: right;
+  width: 230px;
+  height: 22px;
+  vertical-align: top;
+  text-align: left;
+  color: #555;
+  font-size: 0.7em;
+  font-style: italic;
+}
 
 .smaller {
   font-size:      0.9em;
@@ -254,7 +314,14 @@ li {
   display:        inline;
 }
 
+.center {
+  text-align: center;
+}
+
 .loginLink {
   border:         none;
 }
 
+.clearfix {
+  clear: both;
+}

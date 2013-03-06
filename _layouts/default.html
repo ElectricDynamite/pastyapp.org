@@ -9,7 +9,12 @@
   </head>
   <body>
     <div id="logo"></div>
-    <header><a {% if page.name == "index" %}class="selected" {%endif %}href="index.html">About Pasty</a><a {% if page.name == "faq" %}class="selected" {%endif %}href="faq.html">F.A.Q.</a><a href="https://pasty.cc">Login</a></header>
+    <header>
+      <a {% if page.name == "index" %}class="selected" {%endif %}href="index.html">About Pasty</a>
+      <a {% if page.name == "download" %}class="selected" {%endif %}href="download.html">Download</a>
+      <a {% if page.name == "faq" %}class="selected" {%endif %}href="faq.html">F.A.Q.</a>
+      <a href="https://pasty.cc">Login</a>
+    </header>
     <div id="content">
       {{content}}
     </div>
