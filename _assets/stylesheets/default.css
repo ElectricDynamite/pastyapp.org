@@ -128,6 +128,22 @@ a:active {
   color:            #00b7ff;                                    
 }
 
+a:link.dark {
+  color: #1858b8;
+}
+
+a:visited.dark {
+  color: #1858b8;
+}
+
+a:hover.dark {
+  color: #1858b8;
+}
+
+a:active.dark {
+  color: #1858b8;
+}
+
 a:link.image {
   border:           none;
 }
@@ -241,8 +257,8 @@ div.column_wrapper {
   margin-top: 1em;
   margin-bottom: 1em;
   width: 100%;
-  background-color: #EEE;
-  border: 1px solid #AAA;
+  /*background-color: #EEE;
+  border: 1px solid #AAA;*/
 }
 
 div.column_left {
@@ -266,6 +282,12 @@ div.column {
   margin-right: auto;
   margin-bottom: 10px;
   border: 1px solid #AAA;
+  border-radius: 3px;
+}
+
+.apk_wrapper:hover {
+  background-color: #DDD;
+  /*#00b7ff;*/
 }
 
 .apk_icon {
