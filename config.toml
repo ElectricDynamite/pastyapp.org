@@ -1,0 +1,25 @@
+baseURL = "https://www.pastyapp.org/"
+languageCode = "en-us"
+title = "Pasty Cloud Clipboard"
+
+[menu]
+  [[menu.main]]
+    name = "About Pasty"
+    pre = "home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Download"
+    pre = "download"
+    url = "/download/"
+    weight = 2
+  [[menu.main]]
+    name = "F.A.Q."
+    pre = "help-circle"
+    url = "/faq/"
+    weight = 3
+  [[menu.main]]
+    name = "Login"
+    pre = "log-in"
+    url = "https://pasty.cc"
+    weight = 4

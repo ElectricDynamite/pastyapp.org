@@ -1,0 +1,20 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  <section>
+    <h2>{{ .Params.subtitle }}</h2>
+    <div class="column_wrapper">
+      <section>
+        <ol>
+        {{ range $elem_index, $elem_val := $.Params.faq }}
+        <a href="#a{{$elem_index}}"><li>{{ $elem_val.question }}</li></a>
+        {{ end }}
+        </ol>
+    </section>
+    <section>
+      <h2>The Answers (and also the questions again)</h2>
+      {{ range $elem_index, $elem_val := $.Params.faq }}
+      {{ partial "faq-item.html" (dict "context" . "index" $elem_index "question" $elem_val.question "answer" $elem_val.answer)}}
+      {{ end }}
+    </section>
+  </div>
+{{ end }}

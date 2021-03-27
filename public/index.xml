@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pasty Cloud Clipboard</title>
+    <link>https://www.pastyapp.org/</link>
+    <description>Recent content on Pasty Cloud Clipboard</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://www.pastyapp.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Download</title>
+      <link>https://www.pastyapp.org/download/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pastyapp.org/download/</guid>
+      <description>Get Pasty from Google Play and receive all updates:</description>
+    </item>
+    
+    <item>
+      <title>Frequently Asked Questions</title>
+      <link>https://www.pastyapp.org/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pastyapp.org/faq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Imprint</title>
+      <link>https://www.pastyapp.org/imprint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pastyapp.org/imprint/</guid>
+      <description>Imprint Pasty is a project of 
+Philipp Geschke
+Kurmainzer Straße 8
+65817 Eppstein
+Germany
+email: info AT pastyapp DOT org
+phone: +49 6198 585 992</description>
+    </item>
+    
+  </channel>
+</rss>
