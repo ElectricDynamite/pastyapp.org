@@ -4,8 +4,9 @@ variables:
   GIT_SUBMODULE_STRATEGY: recursive
 
 pages:
-  tags:
-  - hugo
+  image:
+    name: registry.gitlab.com/pages/hugo:latest
+    entrypoint: [""]
   script:
   - hugo
   artifacts:
@@ -13,3 +14,4 @@ pages:
     - public
   only:
   - master
+
