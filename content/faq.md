@@ -14,7 +14,7 @@ faq:
   - question: What about my data, do you make money using my data?
     answer: Nope. I dislike services that make money using their users data. Just because I offer you a service to transfer data for you does not mean I have any rights to that data. It's yours, and it stays that way.
   - question: How can I delete my Pasty account?
-    answer: If you decide you don't want to use Pasty anymore, you can visit [Account Deletion](delete_account.html) to break my heart.
+    answer: If you decide you don't want to use Pasty anymore, you can visit [Account Deletion](/delete_account.html) to break my heart.
   - question: What clients are there?
     answer: Currently there is a native [Android app](https://play.google.com/store/apps/details?id=de.electricdynamite.pasty) and a [Web App](https://pasty.cc/). I will most likely not build additional clients for lack of time, but Pasty has an open API, so third party clients are always an option.
   - question: When will client xyz be released?
