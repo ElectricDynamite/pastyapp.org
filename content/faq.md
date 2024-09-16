@@ -1,6 +1,6 @@
 ---
 title: "Frequently Asked Questions"
-type: /faq
+type: faq
 aliases: faq.html
 subtitle: The Questions
 faq:
