@@ -7,7 +7,7 @@
         {{ .Content }}
       </div>
       <div class="column column_right center">
-        <div style="margin-bottom: 0.5em"><b>Archived Legacy Versions</b>></div>
+        <div style="margin-bottom: 0.5em"><b>Archived Legacy Versions</b></div>
         {{ range .Params.apks }}
         {{ partial "apk-item.html" . }}
         {{ end }}
