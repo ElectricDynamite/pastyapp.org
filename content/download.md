@@ -29,6 +29,6 @@ apks:
     md5: 7214bc91f8b754ed17eee2a6011a5bc3
     size: 530
 ---
-Get Pasty from Google Play and receive all updates:
+Get Pasty from Google Play for a 2024 updated version:
 
-[![Get the App on Google Play](/images/android_app_on_play_large.png)](https://play.google.com/store/apps/details?id=de.electricdynamite.pasty)
+[![Get the App on Google Play](/images/android_app_on_play_large.png)](https://play.google.com/store/apps/details?id=de.electricdynamite.pasty2)
