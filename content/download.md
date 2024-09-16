@@ -1,6 +1,6 @@
 ---
 title: "Download"
-type: download
+type: /download
 aliases: download.html
 subtitle: Pasty for Android
 apks:
