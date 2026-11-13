@@ -1,28 +1,49 @@
 {{ define "main" }}
-<section>
-  <h1>Welcome to Pasty!</h1>
-  <h2>Let me show you around</h2>
-
+<section class="hero">
   <div id="qrcode">
-    <a class="image" href="https://play.google.com/store/apps/details?id=de.electricdynamite.pasty2">
-      <img src="/images/qrcode.png" alt="QR Code for Pasty in Google Play" width="185" height="185"></a>
-    <div class="little">Pasty on Google Play</div>
+    <a href="https://play.google.com/store/apps/details?id=de.electricdynamite.pasty2">
+      <img src="/images/qrcode.png" alt="QR Code for Pasty in Google Play" width="150" height="150"></a>
+    <div class="little">Scan for Google Play</div>
   </div>
-  <p>Hello there, and welcome to Pasty, your friendly Cloud Clipboard, helping you to connect the clipboard of all your devices a little more every day.</p>
-  <p>If you wanna get started right away, go ahead and <a href="https://pasty.cc/user/create/">create an account</a>. You will be surprised how little we want to know about you!</p>
-  <p>If you wanna find out more about Pasty and what it can do for you, then keep on reading.</p>
+  <h1>Copy on one device.<br>Paste on another.</h1>
+  <p class="lead">Pasty is your friendly cloud clipboard. Copy a link or a bit of text on your phone and paste it on your computer, without emailing it to yourself ever again.</p>
+  <div class="cta">
+    <a class="button" href="https://pasty.cc/user/create/">Create a free account</a>
+    <a class="button secondary" href="https://pasty.cc">Open the web app</a>
+    <a href="https://play.google.com/store/apps/details?id=de.electricdynamite.pasty2"><img src="/images/android_app_on_play_large.png" alt="Get the App on Google Play" width="172" height="60"></a>
+  </div>
 </section>
-<section>
-  <h1>What Pasty can do for you</h1>
-  <p>Pasty provides you with a clipboard, just like your computer, tablet or smartphone does. The difference is, that the data is not stored locally on the device, but instead gets stored on Pasty's servers.
-  Why should this be of advantage for you? Well, imagine you just got this link for this awesome <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Youtube Video</a> on your smartphone,
-  and wanna show it to your friends on a big screen. Or you just uploaded one of your great pictures to <a href="http://imgur.com/9wuzk" target="_blank">Imgur</a> on your computer and wanna share it using an App on your tablet.
-  How to you get the URL over to the other device? If you are any like me, you are tired of sending yourself emails containing just a link, or for that matter a bit of text you need on the other device.
-  </p>
-  <p>This is where Pasty comes running like the hero you needed but did not deserve. <span class="little">(Batman jokes, anyone?)</span><br>
-  <a class="image" href="https://play.google.com/store/apps/details?id=de.electricdynamite.pasty2"><img src="images/android_app_on_play_large.png" alt="Get the App on Google Play" style="float: left; margin: 8px" width="172" height="60"></a>Just open your Pasty app, or use Pasty's web-app to copy your link into your Pasty Clipboard. Then open Pasty on the other device, copy and just go on with what you really enjoy.
-  Pasty is a tool designed to give you more time for the things you enjoy, taking as little time as possible for itself. It is almost as if you Copy &amp; Paste between two devices. And the best thing? It is completely free!<br>
-  Now go and <a href="https://pasty.cc/user/create/">create an account</a>!
-  </p>
+
+<section class="features">
+  <div class="card">
+    <i data-feather="clipboard"></i>
+    <h3>One clipboard, every device</h3>
+    <p>Use the Android app or the web app to copy into Pasty, then grab it on the other device. Almost like copy &amp; paste across screens.</p>
+  </div>
+  <div class="card">
+    <i data-feather="globe"></i>
+    <h3>Works in any browser</h3>
+    <p>No app at hand? The <a href="https://pasty.cc">web app</a> runs anywhere, nothing to install.</p>
+  </div>
+  <div class="card">
+    <i data-feather="share-2"></i>
+    <h3>Share the good stuff</h3>
+    <p>Found this awesome <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank" rel="noopener">YouTube video</a> on your phone? Paste the link on the big screen and show your friends.</p>
+  </div>
+  <div class="card">
+    <i data-feather="gift"></i>
+    <h3>Completely free</h3>
+    <p>No subscription, no ads. Pasty is a hobby project, and the bill is on me.</p>
+  </div>
+  <div class="card">
+    <i data-feather="shield"></i>
+    <h3>Your data stays yours</h3>
+    <p>Signing up asks for surprisingly little, and your data is never sold or mined.</p>
+  </div>
+  <div class="card">
+    <i data-feather="code"></i>
+    <h3>Open API</h3>
+    <p>Want a client for your platform? The <a href="https://github.com/ElectricDynamite/pasty-server/wiki/REST-API">REST API</a> is open, so go build it.</p>
+  </div>
 </section>
 {{ end }}

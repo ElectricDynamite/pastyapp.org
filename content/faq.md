@@ -2,7 +2,7 @@
 title: "Frequently Asked Questions"
 type: faq
 aliases: faq.html
-subtitle: The Questions
+subtitle: Click a question to see the answer
 faq:
   - question: What is Pasty?
     answer: |

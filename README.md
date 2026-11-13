@@ -12,9 +12,9 @@ Then open http://localhost:1313.
 
 ## Layout
 
-- `content/` – pages (FAQ entries and APK list live in the frontmatter of `faq.md` and `download.md`)
+- `content/` – pages (FAQ entries live in the frontmatter of `faq.md`)
 - `layouts/` – templates and partials
-- `static/` – CSS, images, JS and the APK files
+- `static/` – CSS, images and JS
 
 ## Deployment
 

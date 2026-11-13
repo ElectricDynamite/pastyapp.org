@@ -1,2 +1,4 @@
-<a name="a{{.index}}">&nbsp;</a><h3>{{ .question }}</h3>
-<p>{{ .answer|markdownify }}</p>
+<details id="a{{ .index }}">
+  <summary>{{ .question }}</summary>
+  <div>{{ .answer | markdownify }}</div>
+</details>

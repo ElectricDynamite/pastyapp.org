@@ -1,4 +1,7 @@
 <script src="/js/feather.min.js"></script>
 <script>
   feather.replace()
+  // open the FAQ entry a #aN link points to
+  const openHash = () => { const d = location.hash && document.querySelector(location.hash); if (d && d.tagName === 'DETAILS') d.open = true }
+  addEventListener('hashchange', openHash); openHash()
 </script>
