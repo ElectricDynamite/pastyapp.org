@@ -136,7 +136,8 @@ li { padding: 2px 0; }
 .hero h1 { font-size: clamp(2rem, 5vw, 2.75rem); padding-top: 0; margin-bottom: 1rem; }
 .lead { font-size: 1.2rem; color: var(--muted); max-width: 36rem; }
 .cta { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem 1rem; margin-top: 1.5rem; }
-.cta img { display: block; height: 3rem; width: auto; }
+/* badge PNG has 41/250 transparent padding: 74px tall shows a 50px badge, matching the buttons */
+.cta .play-badge { display: block; height: 74px; width: auto; margin: -12px; }
 
 .button {
   display: inline-block;
