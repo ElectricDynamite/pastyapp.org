@@ -1,5 +1,6 @@
 ---
 title: "Frequently Asked Questions"
+description: "Answers about Pasty, the free cloud clipboard: what it is, why it is free, your data, clients and the open API."
 type: faq
 aliases: faq.html
 subtitle: Click a question to see the answer

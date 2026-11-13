@@ -1,6 +1,6 @@
 # pastyapp.org
 
-Source for [www.pastyapp.org](https://www.pastyapp.org), the website of Pasty Cloud Clipboard. Built with [Hugo](https://gohugo.io), no theme.
+Source for [pastyapp.org](https://pastyapp.org), the website of Pasty Cloud Clipboard. Built with [Hugo](https://gohugo.io), no theme.
 
 ## Local preview
 

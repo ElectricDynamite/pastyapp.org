@@ -2,8 +2,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-    {{ $title := print .Site.Title " | " .Title }}
-    {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+    <meta name="theme-color" content="#1858b8">
+    {{ $css := resources.Get "css/style.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    {{ $title := print site.Title " | " .Title }}
+    {{ if .IsHome }}{{ $title = site.Title }}{{ end }}
+    {{ $desc := .Description | default site.Params.description }}
     <title>{{ $title }}</title>
+    <meta name="description" content="{{ $desc }}">
+    <link rel="canonical" href="{{ .Permalink }}">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{{ site.Title }}">
+    <meta property="og:title" content="{{ $title }}">
+    <meta property="og:description" content="{{ $desc }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:image" content="{{ "images/og-image.png" | absURL }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
 </head>

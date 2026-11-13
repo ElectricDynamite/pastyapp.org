@@ -1,4 +1,4 @@
-baseURL = "https://www.pastyapp.org"
+baseURL = "https://pastyapp.org/"
 locale = "en-us"
 title = "Pasty Cloud Clipboard"
 disableKinds = ["taxonomy", "term"]
@@ -19,3 +19,6 @@ disableKinds = ["taxonomy", "term"]
     pre = "log-in"
     url = "https://pasty.cc"
     weight = 4
+
+[params]
+  description = "Pasty is a free cloud clipboard: copy a link or text on one device and paste it on another. Android app and web app, no ads, your data stays yours."
