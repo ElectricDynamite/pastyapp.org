@@ -1,7 +1,11 @@
-{{ define "main"}}
-    <main id="main">
-      <div>
-       <h1 id="title"><a href="{{ "/" | relURL }}">404 - Not Found</a></h1>
-      </div>
-    </main>
+{{ define "main" }}
+<section class="center">
+  <h1>404 – This page got lost in the cloud</h1>
+  <p class="lead" style="margin: 1rem auto">Whatever you copied here, it never made it to this side. Let's get you somewhere useful:</p>
+  <div class="cta" style="justify-content: center">
+    <a class="button" href="/">Home</a>
+    <a class="button secondary" href="/faq/">F.A.Q.</a>
+    <a class="button secondary" href="https://pasty.cc">Open the web app</a>
+  </div>
+</section>
 {{ end }}

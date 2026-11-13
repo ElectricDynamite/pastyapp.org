@@ -24,7 +24,7 @@ faq:
     answer: |
       First of all, that's not a question. Ha, I know, I wrote it myself and now act as if it is your fault. Isn't that funny?
       But enough of teh funnehs, let's get to business. Pasty's API is open, so if you REALLY want that client, why don't you go ahead and write it yourself?
-      Have a look at the [Wiki pages on Github](https://github.com/ElectricDynamite/pasty-server/wiki), mostly the [REST API](https://github.com/ElectricDynamite/pasty-server/wiki/REST-API).
+      Have a look at the [API documentation](https://beta.api.pastyapp.org/v3/api-docs/), where every endpoint is documented.
   - question: Is Pasty Open Source?
     answer: Some parts are, some parts aren't. It is meant to be, but I never got around to doing it properly. So... soon?
   - question: How do magnets work?

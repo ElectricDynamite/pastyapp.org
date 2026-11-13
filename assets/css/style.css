@@ -46,7 +46,7 @@
 
 body {
   margin: 0 auto;
-  padding: 1rem 1rem 0;
+  padding: 1.5rem 1rem 0;
   max-width: 60rem;
   background: var(--bg);
   color: var(--text);
@@ -66,24 +66,18 @@ a:hover { text-decoration: underline; }
 a.dark { color: inherit; }
 img { max-width: 100%; height: auto; }
 
-#logo {
-  background: url('../images/sitelogo_20130228.png') no-repeat top center / 100% auto;
-  aspect-ratio: 745 / 220;
-  max-width: 745px;
-  margin: 0 auto;
-}
-
 header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: .5rem 1rem;
   background: var(--accent);
   border-radius: 12px 12px 0 0;
-}
-
-header nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: .25rem 1.5rem;
-  padding: .6rem 1rem;
+  box-shadow: 0 2px 8px rgb(0 0 0 / .12);
 }
 
 header a, header a:visited {
@@ -95,7 +89,16 @@ header a, header a:visited {
 }
 
 header a:hover { color: #bfe6ff; text-decoration: none; }
+header .brand { font-size: 1.35rem; font-weight: 700; letter-spacing: .02em; }
+header .brand img { display: block; }
+header nav { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: .25rem 1.25rem; }
 header svg { width: 1.1em; height: 1.1em; }
+
+/* phones: the brand already links home, so drop "About Pasty" and the icons */
+@media (max-width: 480px) {
+  header nav a:first-child { display: none; }
+  header nav svg { display: none; }
+}
 
 #content {
   background: var(--surface);
