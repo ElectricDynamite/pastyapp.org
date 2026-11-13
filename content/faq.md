@@ -16,9 +16,9 @@ faq:
   - question: How can I delete my Pasty account?
     answer: If you decide you don't want to use Pasty anymore, you can visit [Account Deletion](/delete_account.html) to break my heart.
   - question: What clients are there?
-    answer: Currently there is a native [Android app](https://play.google.com/store/apps/details?id=de.electricdynamite.pasty) and a [Web App](https://pasty.cc/). I will most likely not build additional clients for lack of time, but Pasty has an open API, so third party clients are always an option.
+    answer: Currently there is a native [Android app](https://play.google.com/store/apps/details?id=de.electricdynamite.pasty2) and a [Web App](https://pasty.cc/). I will most likely not build additional clients for lack of time, but Pasty has an open API, so third party clients are always an option.
   - question: When will client xyz be released?
-    answer: I will likely not build additional native clients. But Pasty's API is open, so if you are somebody or know somebody that knows how to code, check out [&laquo; I am a developer and want a client for xyz.&raquo;](#7).
+    answer: I will likely not build additional native clients. But Pasty's API is open, so if you are somebody or know somebody that knows how to code, check out [&laquo; I am a developer and want a client for xyz.&raquo;](#a6).
   - question: I am a developer and want a client for xyz.
     answer: |
       First of all, that's not a question. Ha, I know, I wrote it myself and now act as if it is your fault. Isn't that funny?
