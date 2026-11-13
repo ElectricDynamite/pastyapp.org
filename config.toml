@@ -3,6 +3,10 @@ locale = "en-us"
 title = "Pasty Cloud Clipboard"
 disableKinds = ["taxonomy", "term"]
 
+# HTML minify would decode the encoded imprint email (layouts/shortcodes/email.html)
+[minify]
+  disableHTML = true
+
 [menu]
   [[menu.main]]
     name = "About Pasty"
